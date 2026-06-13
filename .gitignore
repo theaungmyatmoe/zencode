@@ -1,0 +1,42 @@
+# Binaries
+/zencode
+/zencode.exe
+/bin/
+/dist/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Deps
+vendor/
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config & secrets (never commit keys)
+.zencode/
+config.toml
+*.env
+.env*
+secrets/
+
+# Build artifacts
+*.log
+/tmp/
+tmp/
+
+# Termux / Android specific noise
+/storage/
