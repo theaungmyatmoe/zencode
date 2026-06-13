@@ -1,0 +1,23 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "cloudflare/kimi-k2.7-code",
+  "small_model": "cloudflare/kimi-k2.7-code",
+  "provider": {
+    "cloudflare": {
+      "options": {
+        "accountId": "your-cloudflare-account-id",
+        "apiKey": "your-cloudflare-api-token"
+      }
+    },
+    "xai": {
+      "options": {
+        "apiKey": "xai-your-key"
+      }
+    }
+  },
+  "settings": {
+    "yolo": false,
+    "theme": "system",
+    "autoupdate": true
+  }
+}
